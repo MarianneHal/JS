@@ -1,3 +1,4 @@
+//Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 let x=['one','two','three',1,2,3,'four','five', 4,5];
 console.log(x[0]);
 console.log(x[1]);
@@ -10,73 +11,50 @@ console.log(x[7]);
 console.log(x[8]);
 console.log(x[9]);
 
-
+//Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив. Кожен автор має поля name,age
 let one={
     tittle: 'Moby-Dick',
     pageCount: 427,
     genre: 'Adventurefiction',
-    author: {
+    author: [{
         name: 'HermanMelville',
         age: 203
-    }
+    }]
 }
 
 let two={
     tittle: 'The little Prince',
     pageCount: 96,
     genre: 'Fantasy',
-    author: {
+    author: [{
         name: 'Antonio de Saint-Exupery',
         age: 122
-    }
+    }]
 }
 
 let three={
     tittle: 'TreeComrades',
     pageCount: 499,
     genre: 'War novel',
-    author: {
+    author: [{
         name: 'Erich Maria Remark',
         age:  124
-    }
+    }]
 }
 
-console.log(three.author.name);
+console.log(three.author[0].name);
 
 
-let five={
-    tittle: 'The little Prince',
-    pageCount: 96,
-    genre: 'Fantasy',
-    author: {
-        name: 'Antonio de Saint-Exupery',
-        age: 122
-    }
-}
+//Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
+    let users= [{name:'Oleg', username:'aaa', password:'123a'}, {name:'Olga', username:'ooo', password:'123o'}, {name:'Vita', username:'vvv', password:'123v'}, {name:'Yana', username:'yyy', password:'123y'}, {name:'Lilia', username:'lll', password:'123l'}, {name:'Igor', username:'iii', password:'123i'}, {name:'Bogdan', username:'bbb', password:'123b'}, {name:'Lina', username:'ddd', password:'123d'}, {name:'Sofia', username:'sss', password:'123s'}]
+console.log(users[0].password)
+console.log(users[1].password)
+console.log(users[2].password)
+console.log(users[3].password)
+console.log(users[4].password)
+console.log(users[5].password)
+console.log(users[6].password)
+console.log(users[7].password)
+console.log(users[8].password)
 
 
-    let user1={
-       name: 'Oleg',
-       username: 'Aaa',
-       pasword: '123a'
-    }
-    let user2={
-        name: 'Igor',
-        username: 'Bbb',
-        pasword: '123b'
-    }
-    let user3={
-        name: 'Iryna',
-        username: 'Ccc',
-        pasword: '123c'
-    }
-
-    let users=[
-        user1,
-        user2,
-        user3
-    ]
-
-console.log(users[0].pasword);
-console.log(users[1].pasword);
-console.log(users[2].pasword);
