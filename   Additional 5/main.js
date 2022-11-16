@@ -106,25 +106,24 @@ let arrnumber = (array, i) => {
 // [0,0,1,0]   => [1,0,0,0]
 
 let change = (arr) => {
+    let array=[];
+    let array2=[]
     for (let i = 0; i < arr.length; i++) {
-        const arrElement = arr[i];
-        if (arrElement === 0) {
-            arr.push(arrElement);
-            arr.splice(i,1);
+        let x = arr[i];
+        if(x!==0) {
+            array.push(x);
+            }
+        if (x===0) {
+            array2.push(x);
         }
-
-    }
-    for (let i = 0; i < arr.length; i++) {
-        const arrElement = arr[i];
-        if (arrElement === 0) {
-            arr.push(arrElement);
-            arr.splice(i, 1);
         }
+    for (let i = 0; i < array2.length; i++) {
+        array.push(array2[i]);
     }
-    console.log(arr);
-       }
+console.log(array);
+    }
 
-let y = change([0, 0, 0, 5]);
+let y = change([1, 0, 0, 2]);
 console.log(y);
 
 
