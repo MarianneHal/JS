@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ff21ddc-2ceb-4ef8-ae89-dd4d26bb2d0d" name="Changes" comment="Ready">
+    <list default="true" id="6ff21ddc-2ceb-4ef8-ae89-dd4d26bb2d0d" name="Changes" comment="Ready last">
       <change afterPath="$PROJECT_DIR$/Additional/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Additional/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/  Additional 5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/  Additional 5/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Additional5(2)/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Additional5(2)/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,9 @@
       <workItem from="1668525813271" duration="5474000" />
       <workItem from="1668534075649" duration="5484000" />
       <workItem from="1668543553927" duration="4743000" />
-      <workItem from="1668584418254" duration="13059000" />
+      <workItem from="1668584418254" duration="13333000" />
+      <workItem from="1668609568587" duration="195000" />
+      <workItem from="1668692411037" duration="6873000" />
     </task>
     <task id="LOCAL-00001" summary="Ready">
       <created>1667316755211</created>
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668583383192</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ready last">
+      <created>1668599654849</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668599654849</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +152,7 @@
     <MESSAGE value="Ready2" />
     <MESSAGE value="Fixed" />
     <MESSAGE value="Ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready" />
+    <MESSAGE value="Ready last" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready last" />
   </component>
 </project>
