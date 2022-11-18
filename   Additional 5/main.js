@@ -107,23 +107,33 @@ let arrnumber = (array, i) => {
 
 let change = (arr) => {
     let array=[];
-    let array2=[]
-    for (let i = 0; i < arr.length; i++) {
-        let x = arr[i];
-        if(x!==0) {
-            array.push(x);
-            }
-        if (x===0) {
-            array2.push(x);
+    let n=[];
+    let result=[];
+    for (let i = 0, j=0; i < arr.length; i++) {
+        if (arr[i] !== 0) {
+            array[j++] = arr[i];
         }
-        }
-    for (let i = 0; i < array2.length; i++) {
-        array.push(array2[i]);
     }
-console.log(array);
+    for (let i = 0, k=0; i < arr.length; i++) {
+        if (arr[i]===0) {
+            n[k++]=arr[i];
+        }
+
+    }
+    for (let i = 0; i < array.length; i++) {
+        result[i]=array[i];
+    }
+    for (let i = 0; i < n.length; i++) {
+        result[array.length+i]=n[i];
+
     }
 
-let y = change([1, 0, 0, 2]);
+
+console.log(result);
+
+    }
+
+let y = change([1, 0, 0, 0, 2]);
 console.log(y);
 
 
