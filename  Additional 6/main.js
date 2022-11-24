@@ -287,13 +287,22 @@ let booksarray = [
 
     },
 ]
+function themostbig (arr) {
+    arr.sort((a,b) => b.numberofpages - a.numberofpages);
+    console.log(arr[0]);
+}
+let themostbigbook = themostbig(booksarray);
+console.log(themostbigbook);
+
+function themostlong (arr) {
+    arr.sort((a,b) => b.name.length - a.name.length);
+    console.log(arr[0]);
+}
+let themostlongname = themostlong(booksarray);
+console.log(themostlongname);
 
 
-let themostbig = booksarray.filter((pages) => pages.numberofpages > pages.numberofpages);
-console.log(themostbig);
-
-
-    let twoauthors = booksarray.filter((authors) => authors.author.length === 2);
+let twoauthors = booksarray.filter((authors) => authors.author.length === 2);
 console.log(twoauthors);
 console.log(booksarray.sort(function (a, b) {
     return b.numberofpages - a.numberofpages
