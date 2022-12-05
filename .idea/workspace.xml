@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ff21ddc-2ceb-4ef8-ae89-dd4d26bb2d0d" name="Changes" comment="Ready">
-      <change beforePath="$PROJECT_DIR$/ Additional 6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ Additional 6/main.js" afterDir="false" />
+    <list default="true" id="6ff21ddc-2ceb-4ef8-ae89-dd4d26bb2d0d" name="Changes" comment="Ready2">
+      <change afterPath="$PROJECT_DIR$/Homework 8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework 8/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional 2/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +76,10 @@
       <workItem from="1669231366881" duration="3424000" />
       <workItem from="1669276099373" duration="2008000" />
       <workItem from="1669290860116" duration="31000" />
-      <workItem from="1669309922141" duration="4643000" />
+      <workItem from="1669309922141" duration="4755000" />
+      <workItem from="1669315631648" duration="169000" />
+      <workItem from="1669320841048" duration="1287000" />
+      <workItem from="1670272681916" duration="6591000" />
     </task>
     <task id="LOCAL-00001" summary="Ready">
       <created>1667316755211</created>
@@ -159,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669290881671</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ready2">
+      <created>1669315519944</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669315519944</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,10 +196,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ready2" />
     <MESSAGE value="Fixed" />
     <MESSAGE value="Ready last" />
     <MESSAGE value="Ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready" />
+    <MESSAGE value="Ready2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready2" />
   </component>
 </project>
