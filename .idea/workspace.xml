@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ff21ddc-2ceb-4ef8-ae89-dd4d26bb2d0d" name="Changes" comment="Ready">
-      <change afterPath="$PROJECT_DIR$/Additional 7 /index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Additional 7 /main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ Homework 9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ Homework 9/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,16 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/ Homework 9/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +88,11 @@
       <workItem from="1669315631648" duration="169000" />
       <workItem from="1669320841048" duration="1287000" />
       <workItem from="1670272681916" duration="6679000" />
-      <workItem from="1670307776552" duration="6528000" />
+      <workItem from="1670307776552" duration="6564000" />
+      <workItem from="1670419198367" duration="146000" />
+      <workItem from="1670452917485" duration="3056000" />
+      <workItem from="1670489142438" duration="11929000" />
+      <workItem from="1670503213783" duration="3025000" />
     </task>
     <task id="LOCAL-00001" summary="Ready">
       <created>1667316755211</created>
@@ -178,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670279558079</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Ready">
+      <created>1670314453115</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670314453115</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
