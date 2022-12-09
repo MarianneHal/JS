@@ -235,11 +235,12 @@ button.onclick = function (e) {
 
 // - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
 
-let buttonAge = document.getElementById('age')
+let buttonAge = document.getElementById('agebutton')
 buttonAge.onclick = function (e) {
-    if (+one.age.value < 18) {
+    let ageuser = one.age.value
+    if (ageuser < 18) {
         alert('Your age are less than 18')
-    } else if (+one.age.value > 18) {
+    } else if (ageuser > 18) {
         alert('Okay, go!')
     }
 }
@@ -247,22 +248,6 @@ buttonAge.onclick = function (e) {
 // *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 // При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
-let x = + two.rows.value
-let y = + two.columns.value
-let textTable = two.text.value
-let divTable = document.getElementsByClassName('table')
-let buttonT = document.getElementById('tablebutton')
-buttonT.onclick = function (e) {
-    let table = document.createElement('table')
-    for (let i = 0; i < x; i++) {
-        let tr = document.createElement('tr')
-        for (let j = 0; j < y; j++) {
-            let td = document.createElement('td')
-            td.innerText=`${textTable}`
-            tr.appendChild(td)
-        }
-        table.appendChild(tr)
-    }
-    divTable.appendChild(table)
-}
+
+
 
