@@ -85,19 +85,21 @@ function Object(id,name,username,email,address,phone,website,company) {
 //
 //    }
 
-function Tag (titleOfTag, action, attrs) {
-    this.titleOfTag = titleOfTag;
-    this.action = action;
-    this.attrs = attrs;
+function userCard(id) {
+    let balance = 100;
+    let transactionLimit = 100;
+    let historyLogs = [];
+    let key = id;
+
+    const createMessage = (operationType, credits) => ({operationType, credits, operationTime: new Date()});
+
+    const getCardOptions = () => ({balance, historyLog, transactionLimit, key});
+
+    function putCredits (money) {
+        balance += money;
+        historyLogs.push(createMessage('putCredits', money))
+    }
+
 }
-function AttrsOfTag (titleOfAttr, actionOfAttr) {
-    this.titleOfAttr=titleOfAttr;
-    this.actionOfAttr = actionOfAttr;
-}
-let tittle = '<a>';
-let action = 'Тег <a> является одним из важных элементов HTML и предназначен для создания ссылок. В зависимости от присутствия атрибутов name или href тег <a> устанавливает ссылку или якорь. Якорем называется закладка внутри страницы, которую можно указать в качестве цели ссылки. При использовании ссылки, которая указывает на якорь, происходит переход к закладке внутри веб-страницы.'
-let attrsOfA = [];
-attrsOfA[0] = new AttrsOfTag('accesskey', 'Активация ссылки с помощью комбинации клавиш.');
-attrsOfA[1] = new AttrsOfTag('coords', 'Устанавливает координаты активной области.');
-let a = new Tag(tittle, action, attrsOfA);
-console.log(a);
+
+
