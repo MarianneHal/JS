@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h2>Goods</h2>
+<button onclick="remove()">Видалити всі товари</button>
+<script>
+    let goods = JSON.parse(localStorage.getItem('goods'))
+let mainDiv = document.createElement('div')
+    document.body.appendChild(mainDiv)
+    for (const goodsElement of goods) {
+        let div = document.createElement('div')
+        div.innerText =`${goodsElement.nameGoods} ${goodsElement.numberGoods} ${goodsElement.priceGoods} ${goodsElement.fotoGoods}`
+        mainDiv.appendChild(div)
+        let buttonDelete = document.createElement('button')
+        buttonDelete.innerText = 'видалити'
+        div.appendChild(buttonDelete)
+        buttonDelete.onclick = () => {
+            let i = goods.indexOf(goodsElement);
+            goods.splice(i, 1)
+            console.log(goods)
+            //localStorage.removeItem('goods')
+            localStorage.setItem('goods', JSON.stringify(goods))
+        };
+
+
+    }
+function remove() {
+        localStorage.removeItem('goods')
+}
+</script>
+</body>
+</html>
