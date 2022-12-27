@@ -49,7 +49,17 @@ a.innerText = 'Перейти до товарів'
 div.appendChild(a)
 
 
-
+ //let content = document.createElement('content');
+//content.classList.add('#content');
+ //content.innerText = 'Вижіли текст і подивись що відбувається. Тут буде міні магія. Удачі. Всіх благ';
+ //let p = document.createElement('p');
+ //document.body.appendChild(content);
+ //content.addEventListener('mouseup', function () {
+    //let selectText = document.getSelection().toString();
+    //let newText = content.innerHTML.replace(selectText, <i><b>${selectText}</b></i>);
+    //content.innerHTML = newText;
+    //document.body.appendChild(p);
+ //})
 
 //масив -
 let users = [
@@ -80,6 +90,10 @@ function addBold() {
     span.appendChild(text)
     selection.insertNode(span)
 }
+document.onmouseup = () =>{
+    addBold()
+}
+
 
 //window.onselect = () => {
 //    addBold()

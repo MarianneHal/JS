@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ff21ddc-2ceb-4ef8-ae89-dd4d26bb2d0d" name="Changes" comment="Ready">
+    <list default="true" id="6ff21ddc-2ceb-4ef8-ae89-dd4d26bb2d0d" name="Changes" comment="Ready2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Additional 12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Additional 12/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Additional 12/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Additional 12/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Additional 12/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Additional 12/main.js" afterDir="false" />
     </list>
@@ -112,7 +111,8 @@
       <workItem from="1671807431642" duration="1291000" />
       <workItem from="1671871649566" duration="794000" />
       <workItem from="1671873283191" duration="276000" />
-      <workItem from="1672139140968" duration="3192000" />
+      <workItem from="1672139140968" duration="3216000" />
+      <workItem from="1672143173037" duration="2225000" />
     </task>
     <task id="LOCAL-00001" summary="Ready">
       <created>1667316755211</created>
@@ -254,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671872434631</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Ready2">
+      <created>1672142995553</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1672142995553</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,9 +287,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed" />
     <MESSAGE value="Ready last" />
-    <MESSAGE value="Ready2" />
     <MESSAGE value="Ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready" />
+    <MESSAGE value="Ready2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
