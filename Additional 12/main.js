@@ -94,7 +94,9 @@ function addBold() {
 arrayClassName = [];
 function  explorer(htmlElement) {
     if (htmlElement.className.length !== 0) {
-    arrayClassName.push(htmlElement.className)}
+    arrayClassName.push(htmlElement.classList[0])
+        arrayClassName.push(htmlElement.classList[1])
+    }
     let children = htmlElement.children
     if (children.length !== 0) {
         for (const child of children) {

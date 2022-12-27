@@ -16,7 +16,10 @@ let mainDiv = document.createElement('div')
     document.body.appendChild(mainDiv)
     for (const goodsElement of goods) {
         let div = document.createElement('div')
-        div.innerText =`${goodsElement.nameGoods} ${goodsElement.numberGoods} ${goodsElement.priceGoods} ${goodsElement.fotoGoods}`
+        div.innerText =`${goodsElement.nameGoods} ${goodsElement.numberGoods} ${goodsElement.priceGoods}`
+        let img = document.createElement('img')
+        img.src=`${goodsElement.fotoGoods}`
+        div.appendChild(img)
         mainDiv.appendChild(div)
         let buttonDelete = document.createElement('button')
         buttonDelete.innerText = 'видалити'
@@ -24,12 +27,10 @@ let mainDiv = document.createElement('div')
         buttonDelete.onclick = () => {
             let i = goods.indexOf(goodsElement);
             goods.splice(i, 1)
-            console.log(goods)
-            //localStorage.removeItem('goods')
+            console.log(i)
             localStorage.setItem('goods', JSON.stringify(goods))
+            div.remove()
         };
-
-
     }
 function remove() {
         localStorage.removeItem('goods')
